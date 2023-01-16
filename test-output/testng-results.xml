@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12557" started-at="2023-01-16T21:38:32 IST" finished-at="2023-01-16T21:38:45 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12557" started-at="2023-01-16T21:38:32 IST" finished-at="2023-01-16T21:38:45 IST">
+      <class name="com.Tests.HomePageTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.Tests.HomePageTest@17d0685f]" name="launchBrowser" is-config="true" duration-ms="8458" started-at="2023-01-16T21:38:32 IST" finished-at="2023-01-16T21:38:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="sortedAmount()[pri:0, instance:com.Tests.HomePageTest@17d0685f]" name="sortedAmount" duration-ms="3800" started-at="2023-01-16T21:38:41 IST" finished-at="2023-01-16T21:38:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortedAmount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Tests.HomePageTest@17d0685f]" name="tearDown" is-config="true" duration-ms="241" started-at="2023-01-16T21:38:45 IST" finished-at="2023-01-16T21:38:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Tests.HomePageTest -->
+      <class name="com.Tests.LoginPageTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.Tests.LoginPageTest@4eb7f003]" name="launchBrowser" is-config="true" duration-ms="8164" started-at="2023-01-16T21:38:32 IST" finished-at="2023-01-16T21:38:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.Tests.LoginPageTest@4eb7f003]" name="loginTest" duration-ms="3711" started-at="2023-01-16T21:38:41 IST" finished-at="2023-01-16T21:38:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Tests.LoginPageTest@4eb7f003]" name="tearDown" is-config="true" duration-ms="183" started-at="2023-01-16T21:38:44 IST" finished-at="2023-01-16T21:38:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Tests.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
